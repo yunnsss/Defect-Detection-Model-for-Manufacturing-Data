@@ -20,17 +20,17 @@ LG Amiers, 제품 이상 여부 판별  모델 개발
 - 패턴을 가지는 변수들 범주화
 - 패턴을 가지는 특정 열 변수 데이터 정리
 
-  ## **2. Data EDA**
-  ### 2.1 파생변수
-  - Equipment
-  - Average Pressure
+## **2. Data EDA**
+### 2.1 파생변수
+- Equipment
+- Average Pressure
 
-  ### 2.2 PCA
-  - 상관계수가 1인 변수들 PCA 진행하여 차원 축소
-  - CLusting을 통해 유사한 집단 PCA 진행
+### 2.2 PCA
+- 상관계수가 1인 변수들 PCA 진행하여 차원 축소
+- CLusting을 통해 유사한 집단 PCA 진행
 
-  ### 2.3 로버스트 스케일링
-  - unique가 15개 이상 100개 이하인 수치형 변수들을 대상으로 로버스트 스케일링 진행
+### 2.3 로버스트 스케일링
+- unique가 15개 이상 100개 이하인 수치형 변수들을 대상으로 로버스트 스케일링 진행
 
 ## **3. Model Fit**
   ### 3.1 Catboost 
